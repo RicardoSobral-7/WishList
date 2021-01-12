@@ -1,0 +1,56 @@
+main .createItemForm {
+    width: 600px;
+    margin: 0 auto;
+}
+
+main .createItemForm form {
+    width: 100%;
+    padding: 16px;
+    border-radius:0 0 12px 12px ;
+    box-shadow: 2px 0px 5px #ddd;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f0f8ff;
+    gap: 15px;
+}
+
+main .createItemForm form div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .createItemForm form div label {
+    font-weight: 700;
+}
+
+main .createItemForm form div input {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main .createItemForm form button {
+    width: 100px;
+    justify-self: end;
+    border: none;
+    border-radius:16px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #e19b5e, #eac098);
+    padding: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    main .createItemForm {
+        width: 400px;
+    }
+}
+
+@media (max-width:400px) {
+    main .createItemForm {
+        width: 360px;
+    }
+}

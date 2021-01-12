@@ -1,0 +1,90 @@
+main .forms {
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 2px 0px 5px #ddd;
+}
+
+main .forms form {
+    width: 100%;
+}
+
+main .forms form#formUpdate div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main .forms form#formUpdate div label {
+    font-weight: 700;
+}
+
+main .forms form#formUpdate div input {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main .forms form#formUpdate div img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    position: absolute;
+    right: 27px;
+    bottom: -85px;
+}
+
+main .forms form button {
+    border-radius: 12px;
+    padding: 8px 16px;
+    border: none;
+}
+
+main .forms form#formUpdate button {
+    position:absolute;
+    right: 32px;
+    bottom: 10px;
+    background-color: #e19b5e;
+    color: #fff;
+}
+
+
+main .forms form#formUpdate button:hover {
+    transition: all 400ms ease;
+    filter: drop-shadow(0 0 6px #e19b5e );
+}
+
+main .forms form#formDelete button{
+    margin-top: 12px;
+    margin-left: 380px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main .forms form#formDelete button:hover {
+    transition: all 400ms ease;
+    background-color: #ff4949;
+    filter: drop-shadow(0 0 6px #ff4949);
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    main .forms {
+        width: 400px;
+    }
+    main .forms form#formDelete button{
+        margin-left: 180px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    main .forms {
+        width: 360px;
+    }
+    main .forms form#formDelete button{
+        margin-left: 140px;
+    }
+}
