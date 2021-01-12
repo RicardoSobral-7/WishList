@@ -27,4 +27,5 @@ To start the project you will need to write this following line in the terminal
 ## Author
 * Ricardo Sobral - [Github](https://github.com/RicardoSobral-7) and [LinkedIn](https://www.linkedin.com/in/ricardo-sobral-b8978613a/)
 
-![WishList gif]()
+![WishList gif](https://github.com/RicardoSobral-7/WishList/blob/master/wishlist.gif)
+![WishList photo](https://github.com/RicardoSobral-7/WishList/blob/master/home.jpg)
